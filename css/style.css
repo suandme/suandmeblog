@@ -156,6 +156,15 @@ body {
 .mobile-nav-on {
   overflow: hidden;
 }
+.fullPage #main {
+  width: 100%;
+  margin: 0;
+}
+.fullPage .article-meta,
+.fullPage .article-header,
+.fullPage .article-footer {
+  display: none;
+}
 #wrap {
   height: 100%;
   width: 100%;
@@ -381,7 +390,8 @@ body {
 .main-nav-link {
   float: left;
   color: #fff;
-  opacity: 0.6;
+  font-size: 26px;
+  /* opacity: 0.6; */
   text-decoration: none;
   text-shadow: 0 1px rgba(0,0,0,0.2);
   -webkit-transition: opacity 0.2s;
