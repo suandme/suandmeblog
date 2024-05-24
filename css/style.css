@@ -451,6 +451,25 @@ body {
   opacity: 1;
   right: 0;
 }
+.underline {
+  position: relative;
+}
+.underline-1{
+  padding: 0 8px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.underline-1::after {
+  position: absolute;
+    content: "";
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/mark.png?raw=true);
+    width: 150px;
+    height: 36px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    left: 0px;
+ 
+}
 @media screen and (max-width: 479px) {
   #search-form-wrap {
     width: 100%;
